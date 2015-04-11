@@ -1,0 +1,9 @@
+---
+:concurrency: 5
+:pidfile: sidekiq.pid
+:logfile: sidekiq.log
+
+staging:
+  :concurrency: 10
+production:
+  :concurrency: 20
